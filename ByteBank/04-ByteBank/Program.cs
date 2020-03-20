@@ -24,6 +24,10 @@ namespace _04_ByteBank
             Console.WriteLine(contaDoBruno.saldo);
 
 
+            contaDoBruno.Depositar(500);
+            Console.WriteLine(contaDoBruno.saldo);
+
+            Console.ReadLine();
         }
     }
 }
